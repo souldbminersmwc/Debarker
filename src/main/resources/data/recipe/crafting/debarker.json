@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "minecraft:chain"
+      },
+      "U": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "pattern": [
+      "CXU",
+      " # ",
+      " # "
+    ],
+    "result": {
+      "count": 1,
+      "id": "debarker:debarker"
+    }
+  }

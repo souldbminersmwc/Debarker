@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "debarker",
+  "version": "${version}",
+  "name": "Debarker",
+  "description": "A mod which adds a new tool - the Debarker. It allows you to strip and unstrip logs with a cheap crafting recipe",
+  "authors": ["Souldbminer"],
+  "contact": {},
+  "license": "AGPL-3.0",
+  "icon": "assets/debarker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.souldb.debarker.client.DebarkerClient"
+    ],
+    "main": [
+      "com.souldb.debarker.Debarker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
